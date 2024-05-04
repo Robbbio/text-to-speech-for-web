@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mali", cursive;
+  height: 100vh;
+  background-image: radial-gradient(
+    rgb(255, 233, 214),
+    rgb(251, 211, 192),
+    rgb(249, 189, 169)
+  );
+  background-size: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 500px;
+  background-color: rgb(255, 249, 240);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(99, 91, 124);
+  background: rgb(242, 212, 213);
+  border-bottom: 5px solid rgb(204, 192, 205);
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px 0 5px 0;
+}
+
+select,
+input,
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+textarea {
+  height: 150px;
+}
+
+#buttons {
+  display: flex;
+}
+
+#buttons button {
+  color: rgb(99, 91, 124);
+  background: rgb(242, 212, 213);
+  border: 0;
+  width: 50%;
+  font-size: 20px;
+  border-bottom: 5px solid rgb(204, 192, 205);
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px;
+  position: relative;
+}
+
+#buttons button:active {
+  top: 2px;
+}
